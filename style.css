@@ -1,0 +1,91 @@
+/*  reset default  browser stylr*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: arial,sans-serif;
+    background-color: burlywood;
+}
+
+header {
+    background-color: transparent;
+    color: aquamarine;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: brown;
+    text-decoration: none;/*remove lines*/
+    font-size: 18px;
+}
+
+nav ul  li a:hover {
+    color: peachpuff;/*change color*/
+}
+
+main {
+    padding: 20px;
+    background-color: rgb(100, 55, 55);
+    min-height: 400px;
+    text-align: left;
+    position: relative;
+}
+
+main h1 {
+    text-align: end;
+    font-size: 35px;
+    color: burlywood;
+}
+
+main h2{
+    text-align: end;
+    font-size: 40px;
+    color: burlywood;
+}
+
+main p {
+    font-size: 18px;
+    color: burlywood;
+}
+
+main h3 {
+    font-size: 35px;
+    color: burlywood;
+}
+
+main li i {
+    font-size: 25px;
+    color: burlywood;
+}
+
+main li {
+    font-size: 28px;
+    color: burlywood;
+}
+
+footer {
+    font-size: 26px;
+    text-align: center;
+    padding: 10px;
+    background-color: burlywood;
+    color: green;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+main img {
+    margin: 10px;
+    display: inline-flex;
+    width: 45px;
+    height: 45px;
+}
